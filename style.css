@@ -63,3 +63,14 @@ footer { border-top: 1px solid var(--line); padding-block: 1.2rem; color: var(--
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
 }
+
+.project:first-child {
+    background: #edf3df;
+    border-color: #9fac91;
+}
+
+.project:hover,
+.project:focus-within {
+    border-color: var(--muted);
+    box-shadow: 0 .5rem 1.75rem rgb(16 40 34 / 8%);
+}
