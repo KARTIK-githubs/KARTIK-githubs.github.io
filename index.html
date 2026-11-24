@@ -1,71 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <title>KARTIK AGGARWAL- Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kartik Aggarwal, B.Tech IT student at MSIT. Explore selected full-stack, AI and hackathon projects.">
+    <meta name="theme-color" content="#102822">
+    <title>Kartik Aggarwal | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="info">
-            <h1>KARTIK AGGARWAL</h1>
-            <p>BTech IT | MSIT</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#infoenter1">Forum</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="wordmark" href="#main">Kartik Aggarwal</a>
+            <nav aria-label="Main navigation">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </nav>
-            </div>
         </div>
     </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <img src="imagektk.jpg" alt="imagektk.jpg" class="profile-photo">
-            <p>Hello! I'm KARTIK AGGARWAL currently a first-year BTech IT student at MSIT, passionate about technology, coding, emerging technology and creating new things. I'm eager to learn more about software development and work on exciting projects that solve real-world problems and can reach and help as many people as it can.</p>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="boxing"></div>
-            <h2 class="skills">Skills</h2>
-            <div class="proff">
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>C</li>
+    <main id="main">
+        <section class="hero" aria-labelledby="intro">
+            <div class="shell hero-inner">
+                <div>
+                    <p class="eyebrow">B.Tech Information Technology · MSIT</p>
+                    <h1 id="intro">Kartik<br>Aggarwal</h1>
+                    <p class="intro">I build software prototypes for practical problems, from planning shared solar projects to helping people discover public schemes.</p>
+                    <div class="actions">
+                        <a class="button primary" href="#projects">Explore projects <span aria-hidden="true">↓</span></a>
+                        <a class="button secondary" href="https://github.com/KARTIK-githubs">GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+                <img class="portrait" src="imagektk.jpg" alt="Kartik Aggarwal">
             </div>
-            </ul>
-        </div>
-    </section>
-    <div class="forum">Forum</div>
-    <div class="infoenter">
-        <div id ="infoenter1" class="user">
-            <input type="text" placeholder="enter your name here">
-            <input type="text" placeholder="enter your email">
-            <input type="text" placeholder="if u have any message please drop it down...">
-            <button class="submit">Submit</button>
-            
-        </div>
-    </div>
-
-    <section id="contact" class="section">
-        <div class="lowering">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:kartik.aggarwal199@gmail.com">kartik..aggarwal199@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/kartik-aggarwal-389151325/" target="_blank">LinkedIn Profile</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 kartik-aggarwal. All rights reserved.</p>
-        </div>
-    </footer>
+        </section>
+        <section class="shell project-section" id="projects" aria-labelledby="work">
+            <h2 id="work">Selected projects</h2>
+            <div class="project-grid">
+                <article class="project">
+                    <p class="eyebrow">Solar feasibility and community planning</p>
+                    <h3><a href="https://github.com/KARTIK-githubs/Solaris----Dheera-Green-Infra">Solaris <span aria-hidden="true">↗</span></a></h3>
+                    <p>Models rooftop sizing, affordability and shared solar credits for Delhi households.</p>
+                    <p class="stack">React · TypeScript · Express · MongoDB</p>
+                </article>
+                <article class="project">
+                    <p class="eyebrow">Startup planning with generative AI</p>
+                    <h3><a href="https://github.com/KARTIK-githubs/VentureArchitect-AI">VentureArchitect AI <span aria-hidden="true">↗</span></a></h3>
+                    <p>Turns an idea into a structured brief covering the market, strategy, risks and pitch.</p>
+                    <p class="stack">Python · Flask · IBM watsonx.ai</p>
+                </article>
+                <article class="project">
+                    <p class="eyebrow">Public scheme discovery</p>
+                    <h3><a href="https://github.com/KARTIK-githubs/Akashvaani-AI">Akashvaani AI <span aria-hidden="true">↗</span></a></h3>
+                    <p>Team prototype that extracts profile details from documents and matches them against scheme rules.</p>
+                    <p class="stack">React · Express · FastAPI · Supabase</p>
+                </article>
+                <article class="project">
+                    <p class="eyebrow">Crop residue decision support</p>
+                    <h3><a href="https://github.com/KARTIK-githubs/AgriCycle-AI">AgriCycle AI <span aria-hidden="true">↗</span></a></h3>
+                    <p>Compares crop residue pathways and turns the selected option into an action plan.</p>
+                    <p class="stack">React · TypeScript · Leaflet</p>
+                </article>
+                <article class="project">
+                    <p class="eyebrow">Indian monument classification</p>
+                    <h3><a href="https://github.com/KARTIK-githubs/indi-mon">INDIMON <span aria-hidden="true">↗</span></a></h3>
+                    <p>Team project with TensorFlow training and inference scripts and a web demo.</p>
+                    <p class="stack">Python · TensorFlow</p>
+                </article>
+                <article class="project">
+                    <p class="eyebrow">Well-being support prototype</p>
+                    <h3><a href="https://github.com/KARTIK-githubs/Aasra">Aasra <span aria-hidden="true">↗</span></a></h3>
+                    <p>Team prototype for exploring consent, privacy and access to support.</p>
+                    <p class="stack">React · TypeScript · Vite</p>
+                </article>
+            </div>
+        </section>
+        <section class="about-section" id="about" aria-labelledby="background">
+            <div class="shell split">
+                <h2 id="background">About</h2>
+                <div>
+                    <p>I'm studying Information Technology at Maharaja Surajmal Institute of Technology (2024–2028). My projects span React, TypeScript, Express, Python and applied machine learning.</p>
+                    <p>As a placement coordinator, I help organize campus recruitment drives and communicate with students and recruiters. I also build prototypes with teams at hackathons.</p>
+                </div>
+            </div>
+        </section>
+        <section class="shell split contact-section" id="contact" aria-labelledby="get-in-touch">
+            <h2 id="get-in-touch">Contact</h2>
+            <div class="actions">
+                <a class="button outline" href="mailto:kartik.aggarwal199@gmail.com">Email</a>
+                <a class="button outline" href="https://www.linkedin.com/in/kartik-aggarwal-389151325/">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+    <footer><div class="shell">Kartik Aggarwal</div></footer>
 </body>
 </html>
