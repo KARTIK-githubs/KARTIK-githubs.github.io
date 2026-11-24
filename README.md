@@ -6,4 +6,4 @@ The source for [kartik-githubs.github.io](https://kartik-githubs.github.io/), a 
 
 Open `index.html` in a browser or run `python -m http.server 8000` from the repository root and open `http://localhost:8000`.
 
-Project content lives in `index.html`, styling in `style.css`, and the existing portrait in `imagektk.jpg`.
+The live layout, project links, and styles are in `index.html`. The portrait is `imagektk.jpg`. GitHub Pages serves these static files directly from the repository. The site does not require a build step.
